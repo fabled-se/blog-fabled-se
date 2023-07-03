@@ -1,7 +1,7 @@
 /* --- General --- */
 
 body {
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   font-size: 17px;
   color: #404040;
   position: relative;
@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-flow: column;
   height: 100vh;
+  padding-top:80px;
 }
 @media (prefers-color-scheme: dark) {
   body {
@@ -46,7 +47,7 @@ p a {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   font-weight: 800;
 }
 a {
@@ -86,12 +87,12 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .main-content {
-    padding-top: 130px;
+    padding-top: 30px;
   }
 }
 
 .main-explain-area {
-  font-family: 'Palatino', serif;
+  font-family:monospace;
   padding: 15px inherit;
 }
 
@@ -100,7 +101,7 @@ hr.small {
 }
 
 div.panel-body a.list-group-item {
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   font-weight: 800;
   border-radius: 0;
   border: none;
@@ -158,7 +159,7 @@ figure:not(.dark) img, img.white {
 .navbar-custom {
   background: #ffffff;
   border-bottom: 1px solid #ffffff;
-  font-family: 'Palatino', serif;
+  font-family: monospace;
 }
 @media (prefers-color-scheme: dark) {
   .navbar-custom {
@@ -367,7 +368,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   text-align: center;
   margin-bottom: 0;
 }
@@ -386,7 +387,7 @@ footer div.disclaimer {
   background-color: #000000;
   border-left-color: #000000;
   border-right-color: #000000;
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   text-align: center;
 }
 
@@ -471,7 +472,7 @@ footer div.disclaimer {
   text-decoration: none;
 }
 .post-preview .post-entry {
-  font-family: 'Palatino', serif;
+  font-family: monospace;
 }
 .post-entry-container {
   display: inline-block;
@@ -510,7 +511,7 @@ footer div.disclaimer {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
@@ -615,7 +616,7 @@ footer div.disclaimer {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   margin: 10px 0 0;
 }
 .intro-header .post-heading .post-subheading {
@@ -639,14 +640,14 @@ footer div.disclaimer {
   padding: 5px 10px;
   font-size: 11px;
   color: #ffffff;
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   right: 0;
   bottom: 0;
   display: none;
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
-    margin-top: 130px;
+    margin-top: 30px;
   }
   .intro-header.big-img {
     margin-top: 91px;  /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -715,7 +716,7 @@ footer div.disclaimer {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Palatino', serif;
+  font-family: monospace;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -750,6 +751,7 @@ footer div.disclaimer {
 
 .pager.blog-pager {
   margin-top:10px;
+  margin-bottom:100px;
 }
 
 h4.panel-title > span.badge {
@@ -953,11 +955,6 @@ h4.see-also {
   }
 }
 
-/* --- Make long KaTeX equations scrollable in the x-axis --- */
-.katex-display>.katex {
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
 
 
 .penguin{
@@ -970,6 +967,21 @@ h4.see-also {
   background-position: bottom left;
 }
 
-.container {
+.container  {
   margin-left:0px;
+  padding-left:0px;
+  padding-right:0px;
+
+}
+
+h3.site-title {
+  margin-top: 0px;
+}
+
+.navbar-header {
+  margin-left:2em !important;
+}
+
+.navbar-right {
+  margin-right: 5em;
 }
