@@ -1,6 +1,6 @@
-baseurl = "https://username.github.io"
+baseurl = "https://fabled.tech"
 DefaultContentLanguage = "en"
-title = ""
+title = "fabled.tech"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
