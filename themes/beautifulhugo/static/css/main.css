@@ -915,45 +915,6 @@ h4.see-also {
   transform: scale(1.4)
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-  code {
-    background-color: #222;
-    color: #fbb;
-  }
-  pre code {
-    color: #ccc;
-  }
-  .well {
-    background-color: #ffffff;
-  }
-  .panel {
-    background-color: #ffffff;
-  }
-  .list-group-item {
-    background-color: #ffffff;
-  }
-
-  pre.chroma {
-    color: white;
-    background-color: #444;
-  }
-  pre.chroma .k {
-    color: #44AACC;
-  }
-  pre.chroma .kt {
-    color: #33CCCC;
-  }
-  pre.chroma .o {
-    color: #AAA;
-  }
-  pre.chroma .nb {
-    color: #00fee9;
-  }
-  pre.chroma .ow {
-    color: #CC0;
-  }
-}
 
 
 
