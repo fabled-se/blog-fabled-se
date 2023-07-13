@@ -869,3 +869,12 @@ h3.site-title {
 .navbar-right {
   margin-right: 5em;
 }
+
+
+.maxwidth {
+  max-width:150em;
+}
+
+.container[role=main] {
+  width:auto;
+}
