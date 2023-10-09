@@ -3,8 +3,9 @@
 {{ $data := .Data }}
 
 <div class="container" role="main">
+  <div class="row">
   <div class="col-lg-3 col-lg-offset-0 col-md-4 col-md-offset-0 penguin"></div>
-  <div class="col-lg-8 col-lg-offset-5 col-md-10 col-md-offset-1">
+  <div class="col-lg-8 col-lg-offset-5 col-md-10 col-md-offset-1 maxwidth">
     <article class="post-preview">
       <div class="panel-group" id="accordion">
         {{ range $key, $value := .Data.Terms.ByCount }}
@@ -32,6 +33,7 @@
         {{ end }}
       </div>
     </article>
+  </div>
   </div>
 </div>
 
